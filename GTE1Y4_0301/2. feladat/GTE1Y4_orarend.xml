@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GTE1Y4_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="../3.%20feladat/GTE1Y4_orarend.xsd">
+    <ora id="1" tipus="Konzultáció">
+        <kurzus>Szoftverjog és biztonságtechnika</kurzus>
+        <idopont>
+            <nap>2025.02.28</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Reformatus_2</helyszin>
+        <oktato>Szekér Zoltán</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="2" tipus="Konzultáció">
+        <kurzus>Valószínűségszámítás és statisztika</kurzus>
+        <idopont>
+            <nap>2025.03.01</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>HotelFurmint_Hars</helyszin>
+        <oktato>Dr. Földvári Attila József</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="3" tipus="Gyakorlat">
+        <kurzus>Webkönytárak</kurzus>
+        <idopont>
+            <nap>2025.03.01</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>HotelFurmint_Kabar</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="4" tipus="Gyakorlat">
+        <kurzus>Alkalmazások fejlesztése projekt labor II</kurzus>
+        <idopont>
+            <nap>2025.03.08</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>HotelFurmint_Kabar</helyszin>
+        <oktato>Perlaki Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="5" tipus="Konzultáció">
+        <kurzus>Informatikatörténet</kurzus>
+        <idopont>
+            <nap>2025.03.08</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>HotelFurmint_Hars</helyszin>
+        <oktato>Janics Tamás</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="6" tipus="Konzultáció">
+        <kurzus>Valószínűségszámítás és statisztika</kurzus>
+        <idopont>
+            <nap>2025.03.08</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Reformatus_4</helyszin>
+        <oktato>Dr. Földvári Attila József</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="7" tipus="Konzultáció">
+        <kurzus>Szoftverjog és biztonságtechnika</kurzus>
+        <idopont>
+            <nap>2025.03.21</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Reformatus_2</helyszin>
+        <oktato>Szekér Zoltán</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="8" tipus="Konzultáció">
+        <kurzus>Komputergrafika és képfeldologzás</kurzus>
+        <idopont>
+            <nap>2025.03.21</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Fazekas Levente Áron</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="9" tipus="Konzultáció">
+        <kurzus>Informatikatörténet</kurzus>
+        <idopont>
+            <nap>2025.03.22</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>HotelFurmint_Kabar</helyszin>
+        <oktato>Janics Tamás</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="10" tipus="Gyakorlat">
+        <kurzus>Alkalmazások fejlesztése projekt labor II</kurzus>
+        <idopont>
+            <nap>2025.04.05</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Perlaki Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="11" tipus="Konzultáció">
+        <kurzus>Informatikatörténet</kurzus>
+        <idopont>
+            <nap>2025.04.12</nap>
+            <tol>09:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Janics Tamás</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="12" tipus="Gyakorlat">
+        <kurzus>Webkönytárak</kurzus>
+        <idopont>
+            <nap>2025.04.25</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>HotelFurmint_Kabar</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="13" tipus="Konzultáció">
+        <kurzus>Valószínűségszámítás és statisztika</kurzus>
+        <idopont>
+            <nap>2025.04.26</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>Reformatus_101</helyszin>
+        <oktato>Dr. Földvári Attila József</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="14" tipus="Konzultáció">
+        <kurzus>Komputergrafika és képfeldologzás</kurzus>
+        <idopont>
+            <nap>2025.05.09</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Fazekas Levente Áron</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+</GTE1Y4_orarend>
