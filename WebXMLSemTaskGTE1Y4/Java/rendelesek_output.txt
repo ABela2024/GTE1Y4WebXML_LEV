@@ -1,0 +1,66 @@
+Részleg: ALAPAANYAG GYÁRTÓ RÉSZLEG
+Cím: Budapest, Simon utca 2.
+
+Dolgozók:
+- Kiss István (Budapest, Kiss utca 2.)
+- Kiss György (Budapest, György utca 2.)
+
+Termékek:
+  - Termék: Koleszterin szint csökkentő
+    Termék ID: t1
+    MEO: Kiss Jánosné, 2025.05.11, Gödöllő, Gödöllő utca 10
+    MBO: Veres Andrásné, 2025.05.15, Vásárosnamény, Kökény utca 20
+    Vevő: Astra Zeneca – Budapest, Alíz utca 4
+    Szállítás: GLS Futárszolgálat, Ford, Rendszám: XX-YY-312, műszaki: 2025.10.10
+
+  - Termék: Fájdalom csillapító
+    Termék ID: t2
+    MEO: Virág Róbertné, 2025.05.10, Budapest, Budapest utca 10
+    MBO: Kapirsák József, 2025.04.20, Budapest, Hadak utca 2
+    Vevő: Pfizer – Budapest, Alkotás utca 53
+    Szállítás: Kumi Futárszolgálat, Peugeout, Rendszám: YY-ZZ-512, műszaki: 2026.06.10
+
+Részleg: INJEKCIÓ GYÁRTÓ RÉSZLEG
+Cím: Budapest, Injekció utca 2.
+
+Dolgozók:
+- Piros István (Budapest, Piros utca 2.)
+- Kék György (Budapest, Kék utca 2.)
+
+Termékek:
+  - Termék: Covid-19 oltás
+    Termék ID: t3
+    MEO: Gibsz Jakabné, 2025.05.11, Vásárosnamény, Tétény utca 10
+    MBO: Veres Andrásné, 2025.05.15, Vásárosnamény, Kökény utca 20
+    Vevő: Richter Gedeon – Budapest, Gyömrői utca 19
+    Szállítás: DPD Futárszolgálat, Opel, Rendszám: ZZ-WW-912, műszaki: 2027.06.10
+
+  - Termék: Fájdalom csillapító
+    Termék ID: t4
+    MEO: Kiss Jánosné, 2025.05.11, Gödöllő, Gödöllő utca 10
+    MBO: Kapirsák József, 2025.04.20, Budapest, Hadak utca 2
+    Vevő: Astra Zeneca – Budapest, Alíz utca 4
+    Szállítás: GLS Futárszolgálat, Ford, Rendszám: XX-YY-312, műszaki: 2025.10.10
+
+Részleg: INFÚZIÓ GYÁRTÓ RÉSZLEG
+Cím: Budapest, Infúzió utca 2.
+
+Dolgozók:
+- Gibsz István (Budapest, Gibsz utca 2.)
+- Gibsz Jakab (Budapest, Jakab utca 2.)
+
+Termékek:
+  - Termék: Sóoldat
+    Termék ID: t5
+    MEO: Virág Róbertné, 2025.05.10, Budapest, Budapest utca 10
+    MBO: Veres Andrásné, 2025.05.15, Vásárosnamény, Kökény utca 20
+    Vevő: Pfizer – Budapest, Alkotás utca 53
+    Szállítás: Kumi Futárszolgálat, Peugeout, Rendszám: YY-ZZ-512, műszaki: 2026.06.10
+
+  - Termék: Cukoroldat
+    Termék ID: t6
+    MEO: Gibsz Jakabné, 2025.05.11, Vásárosnamény, Tétény utca 10
+    MBO: Kapirsák József, 2025.04.20, Budapest, Hadak utca 2
+    Vevő: Richter Gedeon – Budapest, Gyömrői utca 19
+    Szállítás: DPD Futárszolgálat, Opel, Rendszám: ZZ-WW-912, műszaki: 2027.06.10
+
