@@ -1,0 +1,123 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="GTE1Y4_WebXMLSemTask">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- A fő struktura, amely az egész gyártó céget leírja-->
+                <xs:element name="gyartoceg" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gyartas" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Gyártási részlegwk amely a dologzókat és a termékeket is tartalmazza-->
+                                        <xs:element name="reszleg" type="xs:string"/>
+                                        <xs:element name="cim" type="xs:string"/>
+                                        <!-- dolgozók adatai-->
+                                        <xs:element name="dolgozo" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nev" type="xs:string"/>
+                                                    <xs:element name="cim" type="xs:string"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="DID" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <!-- termékek adatai-->
+                                        <xs:element name="termek" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nev" type="xs:string"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="TID" type="xs:string" use="required"/>
+                                                <xs:attribute name="meo_id" type="xs:string" use="required"/>
+                                                <xs:attribute name="mbo_id" type="xs:string" use="required"/>
+                                                <xs:attribute name="vevoID" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- minőségellenőrzés adatai-->
+                            <xs:element name="minosegellenorzes" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cim">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="varos" type="xs:string"/>
+                                                    <xs:element name="utca" type="xs:string"/>
+                                                    <xs:element name="hazszam" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="dolgozo_neve" type="xs:string"/>
+                                        <xs:element name="datum" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="meo_id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- minőségbiztosítás adatai-->
+                            <xs:element name="minosegbiztositas" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cim">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="varos" type="xs:string"/>
+                                                    <xs:element name="utca" type="xs:string"/>
+                                                    <xs:element name="hazszam" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="dolgozo_neve" type="xs:string"/>
+                                        <xs:element name="datum" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="mbo_id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- vevő adatai-->
+                            <xs:element name="vevo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev" type="xs:string"/>
+                                        <xs:element name="cim">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="varos" type="xs:string"/>
+                                                    <xs:element name="utca" type="xs:string"/>
+                                                    <xs:element name="hazszam" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="vevoID" type="xs:string" use="required"/>
+                                    <xs:attribute name="rendelesszam" type="xs:string" use="required"/>
+                                    <xs:attribute name="jaratszam" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- szállítás adatai-->
+                            <xs:element name="szallitas" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cegnev" type="xs:string"/>
+                                        <xs:element name="auto">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tipus" type="xs:string"/>
+                                                    <xs:element name="muszaki_ervenyesseg" type="xs:string"/>
+                                                    <xs:element name="rendszam" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="jaratszam" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="gyartoID" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

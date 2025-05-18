@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GTE1Y4_WebXMLSemTask xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="XMLSchemaGTE1Y4.xsd">
+    <gyartoceg gyartoID="gy1">
+        <!-- gyártó részlegek adatai beleértve a dolgozók adatait és a termékek adatait -->
+        <gyartas>
+            <reszleg>Alapaanyag gyártó részleg</reszleg>
+            <cim>Budapest, Simon utca 2.</cim>
+            <dolgozo DID="d1">
+                <nev>Kiss István</nev>
+                <cim>Budapest, Kiss utca 2.</cim>
+            </dolgozo>
+            <dolgozo DID="d2">
+                <nev>Kiss György</nev>
+                <cim>Budapest, György utca 2.</cim>
+            </dolgozo>
+            <termek TID="t1" meo_id="meo1" mbo_id="mbo1" vevoID="vevo1">
+                <nev>Koleszterin szint csökkentő</nev>
+            </termek>
+            <termek TID="t2" meo_id="meo2" mbo_id="mbo2" vevoID="vevo2">
+                <nev>Fájdalom csillapító</nev>
+            </termek>
+        </gyartas>
+        <gyartas>
+            <reszleg>Injekció gyártó részleg</reszleg>
+            <cim>Budapest, Injekció utca 2.</cim>
+            <dolgozo DID="d3">
+                <nev>Piros István</nev>
+                <cim>Budapest, Piros utca 2.</cim>
+            </dolgozo>
+            <dolgozo DID="d4">
+                <nev>Kék György</nev>
+                <cim>Budapest, Kék utca 2.</cim>
+            </dolgozo>
+            <termek TID="t3" meo_id="meo3" mbo_id="mbo1" vevoID="vevo3">
+                <nev>Covid-19 oltás</nev>
+            </termek>
+            <termek TID="t4" meo_id="meo1" mbo_id="mbo2" vevoID="vevo1"> 
+                <nev>Fájdalom csillapító</nev>
+            </termek>
+        </gyartas>
+        <gyartas>
+            <reszleg>Infúzió gyártó részleg</reszleg>
+            <cim>Budapest, Infúzió utca 2.</cim>
+            <dolgozo DID="d5">
+                <nev>Gibsz István</nev>
+                <cim>Budapest, Gibsz utca 2.</cim>
+            </dolgozo>
+            <dolgozo DID="d6">
+                <nev>Gibsz Jakab</nev>
+                <cim>Budapest, Jakab utca 2.</cim>
+            </dolgozo>
+            <termek TID="t5" meo_id="meo2" mbo_id="mbo1" vevoID="vevo2">
+                <nev>Sóoldat</nev>
+            </termek>
+            <termek TID="t6" meo_id="meo3" mbo_id="mbo2" vevoID="vevo3">
+                <nev>Cukoroldat</nev>
+            </termek>
+        </gyartas>
+        <!-- minőségellenőrzés adatai-->
+        <minosegellenorzes meo_id="meo1">
+            <cim>
+                <varos>Gödöllő</varos>
+                <utca>Gödöllő utca</utca>
+                <hazszam>10</hazszam>
+            </cim>
+            <dolgozo_neve>Kiss Jánosné</dolgozo_neve>
+            <datum>2025.05.11</datum>
+        </minosegellenorzes>
+        <minosegellenorzes meo_id="meo2">
+            <cim>
+                <varos>Budapest</varos>
+                <utca>Budapest utca</utca>
+                <hazszam>10</hazszam>
+            </cim>
+            <dolgozo_neve>Virág Róbertné</dolgozo_neve>
+            <datum>2025.05.10</datum>
+        </minosegellenorzes>
+        <minosegellenorzes meo_id="meo3">
+            <cim>
+                <varos>Vásárosnamény</varos>
+                <utca>Tétény utca</utca>
+                <hazszam>10</hazszam>
+            </cim>
+            <dolgozo_neve>Gibsz Jakabné</dolgozo_neve>
+            <datum>2025.05.11</datum>
+        </minosegellenorzes>
+        <!-- minőségbiztosítás adatai-->
+        <minosegbiztositas mbo_id="mbo1">
+            <cim>
+                <varos>Vásárosnamény</varos>
+                <utca>Kökény utca</utca>
+                <hazszam>20</hazszam>
+            </cim>
+            <dolgozo_neve>Veres Andrásné</dolgozo_neve>
+            <datum>2025.05.15</datum>
+        </minosegbiztositas>
+        <minosegbiztositas mbo_id="mbo2">
+            <cim>
+                <varos>Budapest</varos>
+                <utca>Hadak utca</utca>
+                <hazszam>2</hazszam>
+            </cim>
+            <dolgozo_neve>Kapirsák József</dolgozo_neve>
+            <datum>2025.04.20</datum>
+        </minosegbiztositas>
+        <!-- vevők adatai-->
+        <vevo vevoID="vevo1" rendelesszam="rendeles1" jaratszam="szallitas1">
+            <nev>Astra Zeneca</nev>
+            <cim>
+                <varos>Budapest</varos>
+                <utca>Alíz utca</utca>
+                <hazszam>4</hazszam>
+            </cim>
+        </vevo>
+        <vevo vevoID="vevo2" rendelesszam="rendeles2" jaratszam="szallitas2">
+            <nev>Pfizer</nev>
+            <cim>
+                <varos>Budapest</varos>
+                <utca>Alkotás utca</utca>
+                <hazszam>53</hazszam>
+            </cim>
+        </vevo>
+        <vevo vevoID="vevo3" rendelesszam="rendeles3" jaratszam="szallitas3">
+            <nev>Richter Gedeon</nev>
+            <cim>
+                <varos>Budapest</varos>
+                <utca>Gyömrői utca</utca>
+                <hazszam>19</hazszam>
+            </cim>
+        </vevo>
+        <!-- szállítás adatai-->
+        <szallitas jaratszam = "szallitas1">
+            <cegnev>GLS Futárszolgálat</cegnev>
+            <auto>
+                <tipus>Ford</tipus>
+                <muszaki_ervenyesseg>2025.10.10</muszaki_ervenyesseg>
+                <rendszam>XX-YY-312</rendszam>
+            </auto>
+        </szallitas>
+        <szallitas jaratszam = "szallitas2">
+            <cegnev>Kumi Futárszolgálat</cegnev>
+            <auto>
+                <tipus>Peugeout</tipus>
+                <muszaki_ervenyesseg>2026.06.10</muszaki_ervenyesseg>
+                <rendszam>YY-ZZ-512</rendszam>
+            </auto>
+        </szallitas>
+        <szallitas jaratszam = "szallitas3">
+            <cegnev>DPD Futárszolgálat</cegnev>
+            <auto>
+                <tipus>Opel</tipus>
+                <muszaki_ervenyesseg>2027.06.10</muszaki_ervenyesseg>
+                <rendszam>ZZ-WW-912</rendszam>
+            </auto>
+        </szallitas>
+    </gyartoceg>
+</GTE1Y4_WebXMLSemTask>
